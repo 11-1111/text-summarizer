@@ -24,7 +24,7 @@ function summarize(text, numSentences) {
         let score = 0;
         words.forEach(word => {
             word = word.toLowerCase();
-            score += wordFrequency[word] || 0;
+            score += wordFrequency[word] || 0;gi
         });
         return { sentence, score };
     });
